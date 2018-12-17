@@ -5,7 +5,7 @@
 .right-column[
 We're going to deploy StoreIt.
 
-https://github.com/serain/storeit
+.center[https://github.com/serain/storeit]
 ]
 ???
 
