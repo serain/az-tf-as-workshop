@@ -22,5 +22,5 @@ for folder in walked:
         sections.append(section)
 
 
-with open('index.html', 'w+') as sfh:
+with open('slideshow.html', 'w+') as sfh:
     print(Environment().from_string(TEMPLATE).render(sections=sections), file=sfh)

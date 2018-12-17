@@ -95,9 +95,40 @@ https://github.com/serain/az-tf-as-workshop
 ### - Motivation
 ### - Agenda
 ### - Docs
+### - Our App
+]
+.right-column[
+We're going to deploy StoreIt.
+]
+???
+
+---
+
+.left-column[
+    ## Housekeeping
+### - Motivation
+### - Agenda
+### - Docs
+### - Our App
+### - Our Env
 ]
 .right-column[
 
 ]
 ???
 
+---
+
+.left-column[
+    ## Housekeeping
+### - Motivation
+### - Agenda
+### - Docs
+### - Our App
+### - Our Env
+### - IaaS, PaaS
+]
+.right-column[
+![IaaS PaaS SaaS comparison](https://miro.medium.com/max/1000/1*0z9Pqwn7ujypQ396wleJ1Q.png "IaaS PaaS SaaS")
+]
+???
