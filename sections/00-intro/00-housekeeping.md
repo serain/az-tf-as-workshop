@@ -67,7 +67,7 @@ We won't cover topics such as:
 
 * user management
 
-* proper secret management
+* secret management
 
 ]
 ???
@@ -85,6 +85,19 @@ We won't cover topics such as:
 .center[
 https://github.com/serain/az-tf-as-workshop
 ]
+]
+???
+
+---
+
+.left-column[
+    ## Housekeeping
+### - Motivation
+### - Agenda
+### - Docs
+]
+.right-column[
+
 ]
 ???
 
