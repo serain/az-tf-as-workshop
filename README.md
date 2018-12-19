@@ -12,5 +12,5 @@ https://serain.github.io/az-tf-as-workshop/slideshow.html
 
 Walkthrough for the practical part of the course is in:
 
-https://serain.github.io/az-tf-as-workshop/walkthrough
+https://github.com/serain/az-tf-as-workshop/walkthrough
 
