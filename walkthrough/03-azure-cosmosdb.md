@@ -1,4 +1,4 @@
-## 03 - Create CosmosDB
+## 03 - Create CosmosDB Account
 
 We're going to create a CosmosDB account for our app.
 

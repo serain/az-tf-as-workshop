@@ -270,6 +270,85 @@ https://github.com/serain/az-tf-as-workshop
     ## Azure
 ### - Resource Groups
 ### - VNET & Subnets
+### - NSG
+### - CosmosDB
+]
+.right-column[
+**CosmosDB**
+
+* a multi-model database
+* SQL, noSQL etc.
+* the noSQL emulates the MongoAPI
+
+]
+???
+
+---
+
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
+]
+.right-column[
+
+* Demo creation of CosmosDB
+
+* Demo fetching connection URI
+```
+az cosmosdb list-connection-strings -g storeit-rg -n storeit
+```
+
+* Walkthrough 03
+
+]
+???
+
+---
+
+---
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
+### - Virtual Machines
+### - Deploy
+]
+.right-column[
+```
+$ ssh -o ProxyCommand="ssh -W %h:%p storeit@JUMPBOX_IP" storeit@app
+```
+
+]
+???
+
+---
+
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
+### - Virtual Machines
+### - Deploy
+]
+.right-column[
+* Walkthrough 04
+]
+???
+
+---
+
+---
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
 ]
 .right-column[
 * VNET defines the total address space for resources
@@ -317,7 +396,29 @@ When applied to a subnet, **NSG rules apply to each resource in that subnet**:
 
 ---
 
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+]
+.right-column[
+
+* Demo creation of NSG
+
+* Walkthrough 01
+
+]
+???
+
 ---
+
+---
+
+# Azure
+
+---
+
 .left-column[
     ## Azure
 ### - Resource Groups
@@ -333,10 +434,29 @@ When applied to a subnet, **NSG rules apply to each resource in that subnet**:
 
 ---
 
+
+.left-column[
+    ## Azure
+### - Resource Groups
+]
+.right-column[
+**Resource Groups**
+
+* Demo in the interface
+
+* Walkthrough 00
+]
+???
+
+---
+
 ---
 .left-column[
     ## Azure
 ### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
 ### - Virtual Machines
 ]
 .right-column[
@@ -354,6 +474,9 @@ When applied to a subnet, **NSG rules apply to each resource in that subnet**:
 .left-column[
     ## Azure
 ### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
 ### - Virtual Machines
 ]
 .right-column[
@@ -362,17 +485,43 @@ When applied to a subnet, **NSG rules apply to each resource in that subnet**:
 
 * We're using Azure GUI with minimal changes
 
-* Some things create for convenience:
-   * vnet created for us
-   * network interface given to all boxes
-   * public IP given to all boxes
-   * 
+* Some things create for us:
+   * network interface
+   * disks
+   * public IPs
+]
+???
+
+---
+
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+### - CosmosDB
+### - Virtual Machines
+]
+.right-column[
+* Demo creation of VM
+
+* Demo fetching public IP
+```
+az network public-ip list -g storeit-rg
+```
+
+* Walkthrough 03
 ]
 ???
 
 ---
 
 ---
+
+# Intro
+
+---
+
 .left-column[
     ## Intro
 ### - Our App

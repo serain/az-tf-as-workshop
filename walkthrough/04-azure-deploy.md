@@ -1,4 +1,4 @@
-## 03 - Manual Deploy
+## 04 - Manual Deploy
 
 We're going to deploy StoreIt manually.
 

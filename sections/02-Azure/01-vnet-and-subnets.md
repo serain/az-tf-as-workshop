@@ -48,3 +48,20 @@ When applied to a subnet, **NSG rules apply to each resource in that subnet**:
 ???
 
 ---
+
+.left-column[
+    ## Azure
+### - Resource Groups
+### - VNET & Subnets
+### - NSG
+]
+.right-column[
+
+* Demo creation of NSG
+
+* Walkthrough 01
+
+]
+???
+
+---
