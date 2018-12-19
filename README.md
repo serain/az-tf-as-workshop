@@ -7,3 +7,10 @@
 The slideshow for the course can be accessed from:
 
 https://serain.github.io/az-tf-as-workshop/slideshow.html
+
+## Walkthrough
+
+Walkthrough for the practical part of the course is in:
+
+https://serain.github.io/az-tf-as-workshop/walkthrough
+
