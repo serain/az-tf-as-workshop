@@ -8,10 +8,10 @@
 ### - Deploy
 ]
 .right-column[
+**Hopping through Jumpbox**
 ```
 $ ssh -o ProxyCommand="ssh -W %h:%p storeit@JUMPBOX_IP" storeit@app
 ```
-
 ]
 ???
 
