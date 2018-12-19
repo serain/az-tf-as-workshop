@@ -16,7 +16,7 @@ Navigate to the `storeit-rg` Resource Group, click on the `vnet` and go to the `
 
 Create the `front` subnet in the address range `10.1.1.0/24` and the `back` subnet in the address range `10.1.2.0/24`.
 
-We'll the the Network Security Groups blank here.
+We'll leave the Network Security Groups blank here.
 
 ### Create Network Security Groups
 
