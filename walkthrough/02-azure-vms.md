@@ -40,7 +40,7 @@ We're going to use the CLI to get the Public IPs for our `gw` and `jb`.
 
 Install the Azure CLI on your host Ubuntu by following [these instructions](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest).
 
-Then:
+Then to get the public IPs in the `storeit-rg` Resource Group:
 
 ```
 $ az login
