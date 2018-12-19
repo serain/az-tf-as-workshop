@@ -2,6 +2,10 @@
 
 > Intro level course to Azure cloud and automation
 
+## Target Environment
+
+![diagram](diagram.png "Diagram")
+
 ## Slideshow
 
 The slideshow for the course can be accessed from:
