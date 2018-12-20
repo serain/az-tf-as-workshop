@@ -2,6 +2,8 @@
 
 Get our StoreIt network diagram up on your screen so you know what we're doing.
 
+>Make sure you always create all resources with the "Resource Manager" deployment model, and _not_ "Classic".
+
 ### Create the VNET and `mgmt` subnet
 
 Under the `storeit-rg` click Add and type `Virtual Network`.
