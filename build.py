@@ -14,8 +14,6 @@ for folder in walked:
     for _file in sorted(files):
         section = open(f'{folder[0]}/{_file}').read()
         print(folder[0], _file)
-
-        continue
     
         if _file != '00-housekeeping.md' and not section.startswith('---'):
             section = '---\n' + section
