@@ -2,6 +2,10 @@
 
 > Intro level course to Azure cloud and automation
 
+## Important
+
+Don't subscribe for Azure trial from your work accout.
+
 ## Target Environment
 
 ![diagram](diagram.png "Diagram")
