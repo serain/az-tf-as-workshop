@@ -11,8 +11,11 @@ walked = sorted(list(os.walk('sections')), key=lambda tup: tup[0])
 
 for folder in walked:
     files = folder[2]
-    for _file in files:
+    for _file in sorted(files):
         section = open(f'{folder[0]}/{_file}').read()
+        print(folder[0], _file)
+
+        continue
     
         if _file != '00-housekeeping.md' and not section.startswith('---'):
             section = '---\n' + section
@@ -20,5 +23,5 @@ for folder in walked:
         sections.append(section)
 
 
-with open('slideshow.html', 'w+') as sfh:
-    print(Environment().from_string(TEMPLATE).render(sections=sections), file=sfh)
+# with open('slideshow.html', 'w+') as sfh:
+#     print(Environment().from_string(TEMPLATE).render(sections=sections), file=sfh)
