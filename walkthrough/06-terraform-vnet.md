@@ -55,13 +55,13 @@ module "vnet" {
 From the root of your Terraform project run:
 
 ```
-$ terraform init environment/
+$ terraform init -var-file=environment/env.tfvars environment/
 ```
 
 `init` will download the Azure Resource Manager plugin (we've defined this in `environment/variables.tf`) and parse the modules. Then:
 
 ```
-$ terraform plan environment/
+$ terraform plan -var-file=environment/env.tfvars environment/
 ````
 
 `plan` will show you the actions Terraform would perform to make your remote resources match your local definitions.
@@ -71,6 +71,8 @@ Terraform is idempotent: if you run it multiple times with the same configuratio
 If you're happy with what `plan` shows you, you can apply the changes:
 
 ```
-$ terraform apply environment/
+$ terraform apply -var-file=environment/env.tfvars -auto-approve environment/
 ```
+
+Use the Azure panel to confirm that your resources have been created as you would expect.
 
