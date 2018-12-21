@@ -1,0 +1,13 @@
+---
+- hosts: front
+  become: true
+  roles:
+      - nginx
+
+- hosts: back
+  become: true
+  roles:
+      - app
+  vars:
+      app_env:
+            STOREIT_MONGO_URI: "COSMOSDB_CONNECTION_STRING"

@@ -1,0 +1,26 @@
+Host jb
+    User storeit
+    HostName JUMPBOX_IP
+    IdentityFile ~/.ssh/id_rsa
+    BatchMode yes
+    PasswordAuthentication no
+    StrictHostKeyChecking no
+    ControlMaster auto
+    ControlPath ~/.ssh/control-%r@%h:%p
+    ControlPersist 2h
+    UserKnownHostsFile=/dev/null
+    ServerAliveInterval 30
+    ServerAliveCountMax 10
+
+Host * !jb
+    User storeit
+    ServerAliveInterval 30
+    ServerAliveCountMax 10
+    IdentityFile ~/.ssh/id_rsa
+    TCPKeepAlive yes
+    StrictHostKeyChecking no
+    ProxyCommand ssh -q -F ssh_config -W %h:%p jb
+    ControlMaster auto
+    ControlPath ~/.ssh/control-%r@%h:%p
+    ControlPersist 2h
+    UserKnownHostsFile=/dev/null
