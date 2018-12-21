@@ -172,8 +172,8 @@ module "sub-mgmt" {
 These still need to be declare in each modules' own `variables.tf`, for example by adding the following to `modules/sub-mgmt/variables.tf`:
 
 ```
-vm_user = "storeit"
-vm_ssh_key = "YOUR_PUBLIC_SSH_KEY"
+variable vm_user {}
+variable vm_ssh_key {}
 ```
 
 We can now use these variables when creating our VM in the next bit.
